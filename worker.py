@@ -24,6 +24,10 @@ def start_alerts():
 def start_analytics():
     display_loop(interval=5)
 
+def start_flask():
+    from app import app
+    app.run(host="0.0.0.0", port=5000)
+
 
 if __name__ == "__main__":
     print("🔧 Creating index...")
@@ -36,6 +40,8 @@ if __name__ == "__main__":
         threading.Thread(target=start_stream_consumer, daemon=True),
         threading.Thread(target=start_alerts, daemon=True),
         threading.Thread(target=start_analytics, daemon=True),
+        threading.Thread(target=start_flask, daemon=True)
+
     ]
 
     # 啟動所有執行緒
