@@ -1,4 +1,4 @@
 Flask
 redis
 python-dotenv
-gunicorn  #render command
+# gunicorn  #render command
