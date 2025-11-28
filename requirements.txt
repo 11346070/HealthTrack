@@ -1,4 +1,4 @@
 Flask
 redis
 python-dotenv
-gunicorn  #railway
+gunicorn  #render

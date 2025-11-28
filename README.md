@@ -71,7 +71,7 @@ pip install python-dotenv
 
 ---
 
-### 4️⃣ 啟動 Flask
+### 4️⃣ 在本地端啟動服務
 
 ```
 python main.py
@@ -79,10 +79,10 @@ python main.py
 
 ---
 
-### 5️⃣ 開啟瀏覽器
+### 5️⃣ 開啟瀏覽器 (render公開連結)
 
 ```
-http://127.0.0.1:5000/dashboard
+https://healthtrack-rzi6.onrender.com/dashboard
 ```
 
 ---
